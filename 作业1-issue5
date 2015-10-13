@@ -1,9 +1,10 @@
 [发布作业1-OMOOC2py@issue5](https://github.com/OpenMindClub/OMOOC2py/issues/5)
 
-
-https://www.gitbook.com/
-使用github账户登入。
-在右上角的账户名边，点开“account settings”，设置邮箱和密码。
+#创建gitbook电子书并与github联动
+    网址:https://www.gitbook.com/
+    使用github账户登录。
+    在右上角的账户名边，点开“account settings”，设置邮箱和密码。
+    如图所示:
 *我的gitbook email为hotmail，而github账户为163邮箱*
 *我的gitbook授权密码是dingaling，而github密码是always641*
 API token：76484c7c-78d1-492d-ae11-47ff35dab2e1
