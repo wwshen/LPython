@@ -2,7 +2,7 @@
     "plugins": ["disqus"],
     "pluginsConfig": {
         "disqus":{
-            "shotName":"wwsomooc2py"
+            "shortName":"wwsomooc2py"
         }
     }
 }
