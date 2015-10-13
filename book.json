@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "disqus",
-        "gitignore"
+        "disqus"
     ],
     "pluginsConfig": {
         "disqus": {
