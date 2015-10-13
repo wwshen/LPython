@@ -14,6 +14,8 @@
     点开上方的github按钮，选择库到之前设立的公共库wwshen/LPython
     ![github press](github.jpg)
     创建新书成功。
+    在该电子书-setting-github界面选择填写本人的公开仓库名，并保存。
+    点击add webhook
 
 
 
