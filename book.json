@@ -1,8 +1,11 @@
 {
-    "plugins": ["disqus"],
+    "plugins": [
+        "disqus",
+        "gitignore"
+    ],
     "pluginsConfig": {
-        "disqus":{
-            "shortName":"wwsomooc2py"
+        "disqus": {
+            "shortName": "wwsomooc2py"
         }
     }
 }
