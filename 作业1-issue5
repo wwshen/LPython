@@ -12,9 +12,9 @@
 ##创建新书
     设置新书地址设为https://wwshen.gitbooks.io/OMOOC2py
     点开上方的github按钮，选择库到之前设立的公共库wwshen/LPython
-    ![alt text]()
-    创建新书成功，界面如下。
-点击link to github
+    ![alt text](https://www.gitbook.com/book/wwshen/omooc2py/edit#/edit/master/github.jpg "github press")
+    创建新书成功。
+
 
 
 配置DISQUS插件
