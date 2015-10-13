@@ -5,14 +5,14 @@
     网址:https://www.gitbook.com/
     使用github账户登录。
     在右上角的账户名边，点开“account settings”，设置邮箱和密码。
-    如图所示:![alt text](https://www.gitbook.com/book/wwshen/omooc2py/edit#/edit/master/account%20settings.jpg "account settings")
+    如图所示:![account settings](account settings.jpg)
     查看Github，状态是：Added. 
     点开reconncet GitHub Account，增加gitbook账户的权限：除了登入账户以外，还可以登入公共仓库。
 
 ##创建新书
     设置新书地址设为https://wwshen.gitbooks.io/OMOOC2py
     点开上方的github按钮，选择库到之前设立的公共库wwshen/LPython
-    ![alt text](https://www.gitbook.com/book/wwshen/omooc2py/edit#/edit/master/github.jpg "github press")
+    ![github press](github.jpg)
     创建新书成功。
 
 
@@ -24,7 +24,7 @@
     注册DISQUS，设置shortname
     打开新开的书本，在右上角设置在找到plugin，并点击，在files tree中出现book.json。
     在book.json中输入如下内容。
-    ![alt text](https://www.gitbook.com/book/wwshen/omooc2py/edit#/edit/master/discus%E6%8F%92%E4%BB%B6.jpg "disqus plugin")
+    ![discus插件] (disqus插件.jpg)
 
 #重要参考
 [gitbook参考文档](https://help.gitbook.com/)
