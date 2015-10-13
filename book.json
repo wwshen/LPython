@@ -1,4 +1,8 @@
 {
-    "plugins": [],
-    "pluginsConfig": {}
+    "plugins": ["disqus"],
+    "pluginsConfig": {
+        "disqus":{
+            "shortName": "wwsomooc2py"
+        }
+    }
 }
