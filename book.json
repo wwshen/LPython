@@ -1,4 +1,8 @@
 {
-    "plugins": [],
-    "pluginsConfig": {}
+    "plugins": ["disqus"],
+    "pluginsConfig": {
+        "disqus":{
+            "shotName":"wwsomooc2py"
+        }
+    }
 }
