@@ -24,7 +24,7 @@
     注册DISQUS，设置shortname
     打开新开的书本，在右上角设置在找到plugin，并点击，在files tree中出现book.json。
     在book.json中输入如下内容。
-    
+    ![alt text](https://www.gitbook.com/book/wwshen/omooc2py/edit#/edit/master/discus%E6%8F%92%E4%BB%B6.jpg "disqus plugin")
 
 #重要参考
 [gitbook参考文档](https://help.gitbook.com/)
