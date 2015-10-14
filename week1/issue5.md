@@ -1,5 +1,4 @@
 [发布作业1-OMOOC2py@issue5](https://github.com/OpenMindClub/OMOOC2py/issues/5)
-
 ##创建gitbook电子书并与github联动
 ###设置gitbook账户
     网址:https://www.gitbook.com/
