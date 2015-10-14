@@ -1,6 +1,7 @@
 ####P1 新书编辑后无法发布
     缘起：创建新书时选择了github模板，而非basic模板
     表现：编辑好文字保存后，再回到dashboard，始终提示我的书没有发布。
+        另外github模板下，我也不会写table of contents，每次尝试输入，都被认为没有输入valid ref
     解决：重新创建，并选择basic模板。
     探究：
         1）github模板和basic模板的起始文件有差异。basic模板设置了一些基本文件，如gitignore。github模板完全靠自己架设。
@@ -27,4 +28,12 @@
     解决：每个md文档在命名时都应该加上后缀。
 ####P4 电子书更新失败
     缘起：本来以为是网络问题，但今早一再出现，发现可能还是格式问题。
-    表现：反复提示更新失败。查看具体信息，显示
+    表现：反复提示更新失败。查看具体信息，显示的最后一行为未找到README.MD。
+        打开编辑界面，我的table of Contents里有两个Introduction。
+        点击第一个Introduction，立即跳出需要添加文件READMEMD.md的对话框（因我已有一个readme.md）。
+        这个Introduction无法手动删除。
+        在SUMMARY.md中删除第一个introduction，依然无法发布。
+    解决：1）在SUMMARY.md中删除第一个introduction
+         2）把files tree中的readme.md改成README.md
+         随即首个introduction自动合并消失。
+    探究：看来跟文件的大小写有密切关系。该大小的时候千万不能偷懒小写。
