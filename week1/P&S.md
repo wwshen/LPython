@@ -8,6 +8,7 @@
         是否是缺少gitignore导致电子书无法发布呢？我现在说不上来。因为我现在的这个版本也没有gitignore（不知道是不是被我误删-_-），但是发布是可以的。
         2）格式设置不对。原电已删，无从考证。
     下一步：可以再次尝试github模板。
+关于[gitignore](https://help.github.com/articles/ignoring-files/)：If you create a file in your repository named .gitignore, Git uses it to determine which files and directories to ignore, before you make a commit.
 ####P2 插入图片不能正确显示及相关问题
     缘起：编辑文字过程中使用tab作为每段起始（首行tab后，每行会自动tab）
     表现：插入图片发现仅显示文字编码，如![xxx](xxx.jpg)。
