@@ -25,7 +25,8 @@
  + 设定邮箱
         $ git config --global user.email myname@mymail.com
  + 设定编辑器
-        $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+        $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
+        注意Program Files和(x86)之间有一个空格！
 
    + git documentation上这么说：You may find, if you don’t setup an editor like this, you will likely get into a really confusing state when they are launched. Such example on a Windows system may include a prematurely terminated Git operation during a Git initiated edit.
 
@@ -35,4 +36,36 @@
    + 如果想在本机更改库名，则可以在命令后添加新名字
             $ git clone https://github.com/myname/myrepo newrepo
 
+![the lifecycle of the status of your files](https://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png)
 
++ 打开本地仓库
+		$ git init myrepo
+   + myrepo位于c/documents and settings/xxx(username)
+   + 此命令也用于新建本地仓库
++ 检查文件状态
+  + xp
+		$ git status（或$ git status -s 或$ git status --short）
+    + 这一命令把我位于c/documents and settings/xxx（即working directory）的所有文件都扫了出来，并将它们了列为untracked。
+  + win8
+    + 直接输入上述错误导致错误提示：fatal: Not a git repository (or any of the parent directories): .git
+    + 此句是提示我目前不在正确的目录下（我在c:/documents and settings/xxx，正确的目录是c:/documents and settings/xxx/myrepo）
+    + 更改为
+			$cd myrepo
+			$git status
++ 将untrack文件加入track(状态staged）
+  + 将文件test.txt加入track（staged状态）
+		$git add test.txt
+		$git status 
+     + 现在，test.txt处于staged状态（即已修改，待提交）
+   
+  + modified未staged状态
+    + 修改test.txt，随后再次查看git status，显示test.txt位于modified的状态，但新改变没有staged（旧的test.txt仍处于staged的状态）
+    + 再次使用git add使其进入staged的状态
+			
++ 修改文件并commit
+        $ echo here is a test from git bash >>myrepo/w1/README.md 
+        $ git add w1/README.md
+        $ git commit w1/README.md
+  + 跳出Notepad++，提示“Please enter the commit message for your changes.”添加文字：this is a test for git commit and notepad++，保存并关闭。
+  + 提示1 file changed, 1 insertion(+)
+  + 此外有一个warning：LF will be replaced by CRLF in w1/README.md
