@@ -3,6 +3,7 @@
 注1：本人系统为win 8.1/ win XP
 
 注2：[git官方教程](https://git-scm.com/book/en/)
+本教程主要记录操作练习过程，关于git的概念请参考官方教程
 
 ---
 
@@ -23,11 +24,10 @@
         $ git config --global username "myname"
 
  + 设定邮箱
-        $ git config --global user.email myname@mymail.com
+        $ git config --global user.email mymail@mailbox.com
  + 设定编辑器
         $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
-        注意Program Files和(x86)之间有一个空格！
-
+   +注意Program Files和(x86)之间有一个空格！因为没有发现空格，我在后来的commit操作中失败了无数次。
    + git documentation上这么说：You may find, if you don’t setup an editor like this, you will likely get into a really confusing state when they are launched. Such example on a Windows system may include a prematurely terminated Git operation during a Git initiated edit.
 
  + 建立本地仓库
