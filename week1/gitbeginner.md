@@ -3,7 +3,7 @@
 注1：本人系统为win 8.1/ win XP
 
 注2：[git官方教程](https://git-scm.com/book/en/)
-本教程主要记录操作练习过程，关于git的概念请参考官方教程
+本教程主要记录操作练习过程，关于git的概念参考官方教程
 
 ---
 
@@ -35,7 +35,8 @@
             $ git clone https://github.com/myname/myrepo
    + 如果想在本机更改库名，则可以在命令后添加新名字
             $ git clone https://github.com/myname/myrepo newrepo
-
+   + 新建仓库可以用 $ git init myrepo，同时这一命令还可以启动已存在的repo
+git中的几个重要概念
 ![the lifecycle of the status of your files](https://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png)
 
 + 打开本地仓库
