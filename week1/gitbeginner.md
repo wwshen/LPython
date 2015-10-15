@@ -25,9 +25,3 @@
 
    + git documentation上这么说：You may find, if you don’t setup an editor like this, you will likely get into a really confusing state when they are launched. Such example on a Windows system may include a prematurely terminated Git operation during a Git initiated edit.
 
-getting help
-$ git help &lt;verb&gt;
-$ git &lt;verb&gt; --help
-$ man git-&lt;verb&gt;
-如
-$ git help config
