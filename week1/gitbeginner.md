@@ -1,8 +1,10 @@
-初学git
+#初学git
 
 注1：本人系统为win 8.1/ win XP
 
 注2：[git官方教程](https://git-scm.com/book/en/)
+
+---
 
 + 安装
 
