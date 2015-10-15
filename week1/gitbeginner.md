@@ -1,6 +1,6 @@
 初学git
 
-git官方教程[https://git-scm.com/book/en/]
+[git官方教程](https://git-scm.com/book/en/)
 
 + 安装
 
@@ -16,20 +16,14 @@ git官方教程[https://git-scm.com/book/en/]
  + 打开git bash
 
  + 设定用户名
+        $ git config --global username "myname"
 
+ + 设定邮箱
+        $ git config --global user.email myname@mymail.com
  + 设定编辑器
-$ git config --global core.editor "'C:/Program 
+        $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
 
-Files/Notepad++/notepad++.exe' -multiInst -nosession"
-这个warning只在英文版里有
-WARNING
-You may find, if you don’t setup an editor like this, you will 
-
-likely get into a really confusing state when they are launched. 
-
-Such example on a Windows system may include a prematurely 
-
-terminated Git operation during a Git initiated edit.
+   + git documentation上这么说：You may find, if you don’t setup an editor like this, you will likely get into a really confusing state when they are launched. Such example on a Windows system may include a prematurely terminated Git operation during a Git initiated edit.
 
 getting help
 $ git help &lt;verb&gt;
