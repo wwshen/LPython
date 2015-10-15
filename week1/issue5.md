@@ -1,4 +1,6 @@
 [发布作业1-OMOOC2py@issue5](https://github.com/OpenMindClub/OMOOC2py/issues/5)
+
+背景:windows xp，使用网页版gitbook 
 ##创建gitbook电子书并与github联动
 ###设置gitbook账户
     网址:https://www.gitbook.com/
