@@ -1,6 +1,8 @@
 初学git
 
-[git官方教程](https://git-scm.com/book/en/)
+注1：本人系统为win 8.1
+
+注2：[git官方教程](https://git-scm.com/book/en/)
 
 + 安装
 
@@ -24,4 +26,11 @@
         $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
 
    + git documentation上这么说：You may find, if you don’t setup an editor like this, you will likely get into a really confusing state when they are launched. Such example on a Windows system may include a prematurely terminated Git operation during a Git initiated edit.
+
+ + 建立本地仓库
+   + 因为已在github上建立了公共仓库，因此这里采用了直接复制github仓库的方式
+            $ git clone https://github.com/myname/myrepo
+   + 如果想在本机更改库名，则可以在命令后添加新名字
+            $ git clone https://github.com/myname/myrepo newrepo
+
 
